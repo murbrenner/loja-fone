@@ -40,5 +40,8 @@
     "javascript": "javascriptreact"
   },
   "breadcrumbs.enabled": true,
-  "workbench.activityBar.visible": false
+  "workbench.activityBar.visible": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
