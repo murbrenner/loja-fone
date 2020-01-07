@@ -3,7 +3,7 @@ header {
   color: #fff;
   overflow: hidden;
 
-  margin: 0 112px;
+  margin: 112px;
 
   /* padding: top right bottom left */
   /* padding top right/left bottom; */
@@ -54,6 +54,7 @@ nav {
 a {
   color: inherit;
   text-decoration: none;
+  padding: 0 50px 0;
 }
 /*
 .produtos {
@@ -83,3 +84,15 @@ a {
   height: 28px;
 }
 */
+li {
+  list-style: none;
+  color: fff;
+  width: 199px;
+  height: 60px;
+  float: right;
+  margin: 840px 280px 182px;
+  color: #252c41;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #252c41;
+}
