@@ -24,3 +24,37 @@
 .last {
   margin-right: 0px;
 }
+
+.dlist {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 25px;
+  padding-left: 757px;
+  padding-top: 151px;
+}
+
+.classif {
+  font-size: 20px;
+  padding-top: 96px;
+}
+
+.frete {
+  margin-top: 96px;
+  font-size: 20px;
+}
+
+.preco {
+  padding-top: 23px;
+  font-size: 20px;
+}
+
+.descricao {
+  padding-top: 76px;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.mais {
+  padding-top: 30px;
+  font-size: 20px;
+}
