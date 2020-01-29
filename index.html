@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/container-store.css" />
     <link rel="stylesheet" href="css/header-store.css" />
-    <link rel="stylesheet" href="css/wrap-product.css" />
-    <link rel="stylesheet" href="css/button-store.css" />
-    <link rel="stylesheet" href="css/description-product.css" />
     <link rel="stylesheet" href="css/photo-product.css" />
+    <link rel="stylesheet" href="css/wrap-product.css" />
+    <link rel="stylesheet" href="css/description-product.css" />
+    <link rel="stylesheet" href="css/button-store.css" />
   </head>
 
   <body>
@@ -25,10 +25,9 @@
         <h1 class="title">Logo</h1>
 
         <nav class="navigation">
+          <input type="search" placeholder="Buscar" />
           <a class="action" href="http://www.collabcode.training">Produtos</a>
-
           <a class="action" href="http://www.collabcode.training">Serviços</a>
-
           <a class="action -last" href="http://www.collabcode.training"
             >Carrinho (10)</a
           >
@@ -42,7 +41,13 @@
       <section class="wrap-product">
         <dl class="desccription-product">
           <dt class="title">Fone top, feliz e caro</dt>
-
+          <dd class="item -star">
+            <img src="img/star.png" alt="Estrela" />
+            <img src="img/star.png" alt="Estrela" />
+            <img src="img/star.png" alt="Estrela" />
+            <img src="img/star.png" alt="Estrela" />
+            <img src="img/star2.png" alt="Estrela" />
+          </dd>
           <dd class="item">4.0 (97)</dd>
           <dd class="item -info">
             <strong class="contrast">Frete</strong> C$ 100
@@ -56,17 +61,19 @@
             compre que você não vai se arrepender e se você se arrepender pode
             vender no mercado livre..kkkk
           </dd>
-          <dd class="text ">
+          <dd class="text -more">
             <a href="comprar.html" class="action">Saber mais...</a>
           </dd>
         </dl>
+
+        <div class="buttons">
+          <button class="button-store -second">
+            Adicionar ao Carrinho
+          </button>
+
+          <a class="button-store" href="comprar.html">Comprar</a>
+        </div>
       </section>
-
-      <button class="button-store -second">
-        Adicionar ao Carrinho
-      </button>
-
-      <a class="button-store" href="comprar.html">Comprar</a>
     </div>
   </body>
 </html>

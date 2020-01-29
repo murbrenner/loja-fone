@@ -5,7 +5,7 @@
 
 .desccription-product > .title {
   font-size: 25px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .desccription-product > .item {
@@ -13,12 +13,20 @@
   margin-bottom: 28px;
 }
 
+.desccription-product > .item.-star {
+  margin-bottom: 10px;
+}
+
+.desccription-product > .item.-star + .item {
+  margin-left: 7px;
+}
+
 .desccription-product > .item.-info {
   width: 200px;
   text-align: right;
 }
 
-.desccription-product > .item.-last {
+.desccription-product > .text.-last {
   margin-bottom: 72px;
 }
 
@@ -31,6 +39,10 @@
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 30px;
+}
+
+.desccription-product > .text.-more {
+  margin-bottom: 0px;
 }
 
 .desccription-product .action {
