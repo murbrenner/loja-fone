@@ -13,8 +13,26 @@
   margin-bottom: 28px;
 }
 
+.desccription-product > .item.-heart {
+  position: absolute;
+  transform: translateX(-100%);
+  left: -47px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.desccription-product > .item.-heart:hover,
+.desccription-product > .item.-heart:focus {
+  transform: scale(1.007);
+}
+
 .desccription-product > .item.-star {
   margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.desccription-product > .item.-star:hover {
+  transform: scale(1.007);
 }
 
 .desccription-product > .item.-star + .item {
