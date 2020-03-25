@@ -21,16 +21,18 @@
   cursor: pointer;
 }
 
-.desccription-product > .item.-heart:hover,
-.desccription-product > .item.-heart:focus {
-  transform: scale(1.007);
-}
-
 .desccription-product > .item.-star {
   margin-bottom: 10px;
   cursor: pointer;
 }
 
+.desccription-product .icon {
+  transition: transform 100ms linear;
+}
+
+.desccription-product .icon:hover {
+  transform: scale(1.2);
+}
 .desccription-product > .item.-star:hover {
   transform: scale(1.007);
 }
